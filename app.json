@@ -23,6 +23,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app want to accesses your photos to let you share them with your friends.",
+          "cameraPermission": "The app needs access to the camera to take awesome photos of your favorite spots."
+        }
+      ]
+    ]
   }
 }
